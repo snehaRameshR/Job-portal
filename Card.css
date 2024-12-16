@@ -1,0 +1,47 @@
+.job-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 500px;
+  }
+  
+  .job-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .company-name {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .job-location,
+  .job-salary {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .job-description {
+    font-size: 0.85rem;
+    color: #777;
+    margin: 8px 0;
+  }
+  
+  .apply-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-btn:hover {
+    background-color: #0056b3;
+  }
+  

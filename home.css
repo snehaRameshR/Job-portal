@@ -1,0 +1,156 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  /* Main container */
+  .homepg {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  .heading {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Search bar styling */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .input1, .input2 {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 250px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Image styling */
+  .img {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Job cards container */
+  .job-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Job card styles */
+  .job-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .job-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .company-name {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .job-location,
+  .job-salary {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .job-description {
+    font-size: 0.85rem;
+    color: #777;
+    margin: 8px 0;
+  }
+  
+  .apply-btn {
+    display: block;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .apply-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* No jobs message */
+  .job-cards p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .search-bar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .input1, .input2, .search-button {
+      width: 90%;
+      margin: 5px 0;
+    }
+  
+    .job-card {
+      width: 90%;
+    }
+  }
+  

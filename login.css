@@ -1,0 +1,35 @@
+.login-form{
+  width: 400px;
+  height: 500px;
+  background-color: rgb(108, 20, 155);
+  margin-left: 500px;
+ margin-top: 50px; 
+}
+h2{
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+.fullform label{
+  display: block;
+  position: relative;
+  left: 90px;
+  color: white;
+  padding: 10px;
+}
+.fullform input{
+
+  height: 30px;
+ text-align: center;
+ position: relative;
+ left: 100px;
+}
+.btn{
+  width: 60px;
+  height: 40px;
+  color: white;
+  background-color: rgb(55, 43, 226);
+  position: relative;
+  left: 150px;
+  margin-top: 30px;
+}

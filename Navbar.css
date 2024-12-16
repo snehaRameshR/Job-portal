@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(219, 236, 243);
+}
+.nav-bar :link{
+    height: 50p;
+   padding:30px 10px;
+}
+.logo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
